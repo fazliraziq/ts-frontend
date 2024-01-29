@@ -6,8 +6,8 @@ function HeaderBar() {
         <img className="w-12 h-12 rounded-full border-2 border-blue-500" src="https://placehold.co/50x50.png" alt="Logo"/>
         <nav className="text-gray-700">
             <Link className="mr-5 hover:text-gray-900 font-semibold" to="/">Home</Link> 
-            <Link className="mr-5 hover:text-gray-900 font-semibold" to="/event">Events</Link>
-            <Link className="mr-5 hover:text-gray-900 font-semibold" to="/ticket">Tickets</Link>
+            <Link className="mr-5 hover:text-gray-900 font-semibold" to="/events">Events</Link>
+            <Link className="mr-5 hover:text-gray-900 font-semibold" to="/tickets">Tickets</Link>
         </nav>
         <nav>
             <Link className="mr-4 hover:text-gray-900 font-semibold" to="/login">Sign in</Link>
